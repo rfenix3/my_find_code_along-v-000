@@ -11,4 +11,4 @@ def my_find(collection)
 
 end
 
-my_find((1..100).to_a) {|i| i % 3 ==0 && i % 5 == 0}
+puts my_find((1..100).to_a) {|i| i % 3 ==0 && i % 5 == 0}
